@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888A8B5B1F9D1FF100A83CDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A8B5A1F9D1FF100A83CDA /* main.m */; };
+		888A8B5E1F9D1FF100A83CDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A8B5D1F9D1FF100A83CDA /* AppDelegate.m */; };
+		888A8B611F9D1FF100A83CDA /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A8B601F9D1FF100A83CDA /* WebViewController.m */; };
+		888A8B641F9D1FF100A83CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888A8B621F9D1FF100A83CDA /* Main.storyboard */; };
+		888A8B661F9D1FF100A83CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888A8B651F9D1FF100A83CDA /* Assets.xcassets */; };
+		888A8B741F9D1FF100A83CDA /* CheggAuthDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A8B731F9D1FF100A83CDA /* CheggAuthDemoTests.m */; };
+		888A8B7F1F9D1FF100A83CDA /* CheggAuthDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A8B7E1F9D1FF100A83CDA /* CheggAuthDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		888A8B701F9D1FF100A83CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888A8B4E1F9D1FF100A83CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888A8B551F9D1FF100A83CDA;
+			remoteInfo = CheggAuthDemo;
+		};
+		888A8B7B1F9D1FF100A83CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888A8B4E1F9D1FF100A83CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888A8B551F9D1FF100A83CDA;
+			remoteInfo = CheggAuthDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		888A8B561F9D1FF100A83CDA /* CheggAuthDemoWKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheggAuthDemoWKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		888A8B5A1F9D1FF100A83CDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		888A8B5C1F9D1FF100A83CDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		888A8B5D1F9D1FF100A83CDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		888A8B5F1F9D1FF100A83CDA /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		888A8B601F9D1FF100A83CDA /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		888A8B631F9D1FF100A83CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		888A8B651F9D1FF100A83CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		888A8B6A1F9D1FF100A83CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888A8B6F1F9D1FF100A83CDA /* CheggAuthDemoWKWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheggAuthDemoWKWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		888A8B731F9D1FF100A83CDA /* CheggAuthDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheggAuthDemoTests.m; sourceTree = "<group>"; };
+		888A8B751F9D1FF100A83CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888A8B7A1F9D1FF100A83CDA /* CheggAuthDemoWKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheggAuthDemoWKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		888A8B7E1F9D1FF100A83CDA /* CheggAuthDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheggAuthDemoUITests.m; sourceTree = "<group>"; };
+		888A8B801F9D1FF100A83CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888A8B531F9D1FF100A83CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A8B6C1F9D1FF100A83CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A8B771F9D1FF100A83CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888A8B4D1F9D1FF100A83CDA = {
+			isa = PBXGroup;
+			children = (
+				888A8B581F9D1FF100A83CDA /* CheggAuthDemo */,
+				888A8B721F9D1FF100A83CDA /* CheggAuthDemoTests */,
+				888A8B7D1F9D1FF100A83CDA /* CheggAuthDemoUITests */,
+				888A8B571F9D1FF100A83CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888A8B571F9D1FF100A83CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888A8B561F9D1FF100A83CDA /* CheggAuthDemoWKWebView.app */,
+				888A8B6F1F9D1FF100A83CDA /* CheggAuthDemoWKWebViewTests.xctest */,
+				888A8B7A1F9D1FF100A83CDA /* CheggAuthDemoWKWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888A8B581F9D1FF100A83CDA /* CheggAuthDemo */ = {
+			isa = PBXGroup;
+			children = (
+				888A8B5C1F9D1FF100A83CDA /* AppDelegate.h */,
+				888A8B5D1F9D1FF100A83CDA /* AppDelegate.m */,
+				888A8B5F1F9D1FF100A83CDA /* WebViewController.h */,
+				888A8B601F9D1FF100A83CDA /* WebViewController.m */,
+				888A8B621F9D1FF100A83CDA /* Main.storyboard */,
+				888A8B651F9D1FF100A83CDA /* Assets.xcassets */,
+				888A8B6A1F9D1FF100A83CDA /* Info.plist */,
+				888A8B591F9D1FF100A83CDA /* Supporting Files */,
+			);
+			path = CheggAuthDemo;
+			sourceTree = "<group>";
+		};
+		888A8B591F9D1FF100A83CDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888A8B5A1F9D1FF100A83CDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		888A8B721F9D1FF100A83CDA /* CheggAuthDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				888A8B731F9D1FF100A83CDA /* CheggAuthDemoTests.m */,
+				888A8B751F9D1FF100A83CDA /* Info.plist */,
+			);
+			path = CheggAuthDemoTests;
+			sourceTree = "<group>";
+		};
+		888A8B7D1F9D1FF100A83CDA /* CheggAuthDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				888A8B7E1F9D1FF100A83CDA /* CheggAuthDemoUITests.m */,
+				888A8B801F9D1FF100A83CDA /* Info.plist */,
+			);
+			path = CheggAuthDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888A8B551F9D1FF100A83CDA /* CheggAuthDemoWKWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888A8B831F9D1FF100A83CDA /* Build configuration list for PBXNativeTarget "CheggAuthDemoWKWebView" */;
+			buildPhases = (
+				888A8B521F9D1FF100A83CDA /* Sources */,
+				888A8B531F9D1FF100A83CDA /* Frameworks */,
+				888A8B541F9D1FF100A83CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheggAuthDemoWKWebView;
+			productName = CheggAuthDemo;
+			productReference = 888A8B561F9D1FF100A83CDA /* CheggAuthDemoWKWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		888A8B6E1F9D1FF100A83CDA /* CheggAuthDemoWKWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888A8B861F9D1FF100A83CDA /* Build configuration list for PBXNativeTarget "CheggAuthDemoWKWebViewTests" */;
+			buildPhases = (
+				888A8B6B1F9D1FF100A83CDA /* Sources */,
+				888A8B6C1F9D1FF100A83CDA /* Frameworks */,
+				888A8B6D1F9D1FF100A83CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888A8B711F9D1FF100A83CDA /* PBXTargetDependency */,
+			);
+			name = CheggAuthDemoWKWebViewTests;
+			productName = CheggAuthDemoTests;
+			productReference = 888A8B6F1F9D1FF100A83CDA /* CheggAuthDemoWKWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		888A8B791F9D1FF100A83CDA /* CheggAuthDemoWKWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888A8B891F9D1FF100A83CDA /* Build configuration list for PBXNativeTarget "CheggAuthDemoWKWebViewUITests" */;
+			buildPhases = (
+				888A8B761F9D1FF100A83CDA /* Sources */,
+				888A8B771F9D1FF100A83CDA /* Frameworks */,
+				888A8B781F9D1FF100A83CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888A8B7C1F9D1FF100A83CDA /* PBXTargetDependency */,
+			);
+			name = CheggAuthDemoWKWebViewUITests;
+			productName = CheggAuthDemoUITests;
+			productReference = 888A8B7A1F9D1FF100A83CDA /* CheggAuthDemoWKWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888A8B4E1F9D1FF100A83CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Victor Borshak";
+				TargetAttributes = {
+					888A8B551F9D1FF100A83CDA = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = J9D9P87HCD;
+						ProvisioningStyle = Automatic;
+					};
+					888A8B6E1F9D1FF100A83CDA = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 888A8B551F9D1FF100A83CDA;
+					};
+					888A8B791F9D1FF100A83CDA = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 888A8B551F9D1FF100A83CDA;
+					};
+				};
+			};
+			buildConfigurationList = 888A8B511F9D1FF100A83CDA /* Build configuration list for PBXProject "CheggAuthDemoWKWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 888A8B4D1F9D1FF100A83CDA;
+			productRefGroup = 888A8B571F9D1FF100A83CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888A8B551F9D1FF100A83CDA /* CheggAuthDemoWKWebView */,
+				888A8B6E1F9D1FF100A83CDA /* CheggAuthDemoWKWebViewTests */,
+				888A8B791F9D1FF100A83CDA /* CheggAuthDemoWKWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888A8B541F9D1FF100A83CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A8B661F9D1FF100A83CDA /* Assets.xcassets in Resources */,
+				888A8B641F9D1FF100A83CDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A8B6D1F9D1FF100A83CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A8B781F9D1FF100A83CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888A8B521F9D1FF100A83CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A8B611F9D1FF100A83CDA /* WebViewController.m in Sources */,
+				888A8B5E1F9D1FF100A83CDA /* AppDelegate.m in Sources */,
+				888A8B5B1F9D1FF100A83CDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A8B6B1F9D1FF100A83CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A8B741F9D1FF100A83CDA /* CheggAuthDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A8B761F9D1FF100A83CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A8B7F1F9D1FF100A83CDA /* CheggAuthDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		888A8B711F9D1FF100A83CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888A8B551F9D1FF100A83CDA /* CheggAuthDemoWKWebView */;
+			targetProxy = 888A8B701F9D1FF100A83CDA /* PBXContainerItemProxy */;
+		};
+		888A8B7C1F9D1FF100A83CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888A8B551F9D1FF100A83CDA /* CheggAuthDemoWKWebView */;
+			targetProxy = 888A8B7B1F9D1FF100A83CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		888A8B621F9D1FF100A83CDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888A8B631F9D1FF100A83CDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		888A8B811F9D1FF100A83CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		888A8B821F9D1FF100A83CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888A8B841F9D1FF100A83CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9D9P87HCD;
+				INFOPLIST_FILE = CheggAuthDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		888A8B851F9D1FF100A83CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9D9P87HCD;
+				INFOPLIST_FILE = CheggAuthDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		888A8B871F9D1FF100A83CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CheggAuthDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheggAuthDemoWKWebView.app/CheggAuthDemoWKWebView";
+			};
+			name = Debug;
+		};
+		888A8B881F9D1FF100A83CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CheggAuthDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheggAuthDemoWKWebView.app/CheggAuthDemoWKWebView";
+			};
+			name = Release;
+		};
+		888A8B8A1F9D1FF100A83CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CheggAuthDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheggAuthDemo;
+			};
+			name = Debug;
+		};
+		888A8B8B1F9D1FF100A83CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CheggAuthDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chegg.CheggAuthDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheggAuthDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888A8B511F9D1FF100A83CDA /* Build configuration list for PBXProject "CheggAuthDemoWKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888A8B811F9D1FF100A83CDA /* Debug */,
+				888A8B821F9D1FF100A83CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888A8B831F9D1FF100A83CDA /* Build configuration list for PBXNativeTarget "CheggAuthDemoWKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888A8B841F9D1FF100A83CDA /* Debug */,
+				888A8B851F9D1FF100A83CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888A8B861F9D1FF100A83CDA /* Build configuration list for PBXNativeTarget "CheggAuthDemoWKWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888A8B871F9D1FF100A83CDA /* Debug */,
+				888A8B881F9D1FF100A83CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888A8B891F9D1FF100A83CDA /* Build configuration list for PBXNativeTarget "CheggAuthDemoWKWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888A8B8A1F9D1FF100A83CDA /* Debug */,
+				888A8B8B1F9D1FF100A83CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 888A8B4E1F9D1FF100A83CDA /* Project object */;
+}
