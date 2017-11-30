@@ -28,7 +28,7 @@
     
     [super viewDidLoad];
     
-    self.title = @"Prod Auth!";
+    self.title = @"WKViewView";
     
     if (!self.webView) {
         self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(self.view.frame.origin.x, 0, self.view.frame.size.width, self.view.frame.size.height)];
@@ -45,9 +45,7 @@
     [self.view addSubview:self.activityIndicator];
     [self.activityIndicator startAnimating];
     
-    if (self.pageURL) {
-        [self open];
-    }
+    [self open];
 }
 
 - (void) open

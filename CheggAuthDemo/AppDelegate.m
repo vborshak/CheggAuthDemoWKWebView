@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WebViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,25 +23,14 @@
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options
 {
-    
-    UIAlertController * alert=   [UIAlertController
-                                  alertControllerWithTitle:@"Incoming URL"
-                                  message:[url absoluteString]
-                                  preferredStyle:UIAlertControllerStyleAlert];
-    
-    UIAlertAction* yesButton = [UIAlertAction
-                                actionWithTitle:@"Okay"
-                                style:UIAlertActionStyleDefault
-                                handler:^(UIAlertAction * action)
-                                {
-                                    
-                                }];
-    
-    [alert addAction:yesButton];
-    
-    [self.window.rootViewController presentViewController:alert animated:YES completion:nil];
-    
-    return NO;
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Incoming URL"
+                                                    message:[url absoluteString]
+                                                   delegate:self
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
